@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c02bf7e8125829404db15a7caff2c2eb329d0661a45f9f5f59a0f76aac551ad0
-size 22
+# Swift Mumbai Assets
+
+
+1. [Advanced iOS Animations Workshop presented at Swift India Conference, 2019](https://github.com/swiftmumbai/assets/blob/master/Advanced%20Animations/README.md)
+
+2. [Advanced iOS Debugging Workshop presented at Swift India Conference, 2019](https://github.com/swiftmumbai/assets/blob/master/Advanced%20Debugging/README.md)
