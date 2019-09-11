@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04e4c84afaa3971797c35e07ce8a065ddb55a8a0623d68d3e56ad873b8e3cdd4
-size 552
+//
+//  RMMaster.h
+//  Rage Masters
+//
+//  Created by Canopus on 10/8/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface RMMaster : NSObject
+
+@property (copy, nonatomic) NSString *name;
+@property (copy, nonatomic) NSString *mastery;
+@property (copy, nonatomic) NSString *location;
+@property (copy, nonatomic) UIImage *image;
+@property (nonatomic) BOOL isBookmarked;
+
+- (id)initWithName:(NSString *)name mastery:(NSString *)mastery location:(NSString *)location image:(UIImage *)image;
+
+@end

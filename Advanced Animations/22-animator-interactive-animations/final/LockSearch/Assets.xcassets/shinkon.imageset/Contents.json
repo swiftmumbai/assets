@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad977fcdb631265e795a2e527f363e278eb353eabc2eee74f03cbc26216a1468
-size 304
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "shinkon.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

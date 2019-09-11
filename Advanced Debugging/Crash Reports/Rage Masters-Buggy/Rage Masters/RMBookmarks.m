@@ -1,3 +1,89 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f514137478a2c5dfad6a062e49dbbfffba6ed66244486b0b62ee004773a85ceb
-size 1375
+//
+//  RMBookmarks.m
+//  Rage Masters
+//
+//  Created by Canopus on 10/8/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import "RMBookmarks.h"
+
+@implementation RMBookmarks {
+    NSMutableArray *_bookmarks;
+    NSMutableArray *_funky;
+}
+
+
+static RMBookmarks *_sharedClass;
+
+
++ (RMBookmarks *)sharedBookmarks {
+    
+    if (!_sharedClass) {
+        _sharedClass = [[RMBookmarks alloc] init];
+    }
+    return _sharedClass;
+}
+
+
+- (id)init {
+    if (self = [super init]) {
+        _bookmarks = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
+
+- (void)dealloc {
+    [_bookmarks release];
+    [_funky release];
+    [_sharedClass release];
+    [super dealloc];
+}
+
+
+
+- (void)bookmarkMaster:(RMMaster *)master {
+    
+    NSObject *obj = [[NSObject alloc] init];
+    [_funky addObject:obj];
+    [obj release];
+    
+    [_bookmarks addObject:master];
+}
+
+
+
+- (NSArray *)bookmarks {
+    return [[_bookmarks copy] autorelease];
+}
+
+
+
+- (void)unbookmarkMaster:(RMMaster *)master {
+    [_bookmarks removeObject:master];
+    master.isBookmarked = NO;
+}
+
+
+- (BOOL)canDoFunkyStuff {
+    
+    id object = [self freedObject];
+    if (object)
+        return YES;
+    return NO;
+}
+
+
+- (id)freedObject {
+    
+    if (_bookmarks.count > 0) {
+        id object = [_funky lastObject];
+        [_funky removeLastObject];
+        return object;
+    }
+    return nil;
+}
+
+
+@end

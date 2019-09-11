@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b516b1fbf42e13dbe23faa3346519584bc88e1f86d691d109c64dad69e0e0ca6
-size 343
+//
+//  main.m
+//  Rage Masters
+//
+//  Created by Canopus on 10/8/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "RMAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RMAppDelegate class]));
+    }
+}

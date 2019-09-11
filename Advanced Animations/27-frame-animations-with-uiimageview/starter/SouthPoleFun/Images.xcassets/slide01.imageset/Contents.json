@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78d63846d483646552e7162ed2f86a036f2c5cc04c6ed37b8dc46885c2e4cc48
-size 344
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "slide01@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "slide01@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

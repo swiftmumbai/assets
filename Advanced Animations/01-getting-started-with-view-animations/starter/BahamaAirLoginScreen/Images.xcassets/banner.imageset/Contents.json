@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:edde3bb10ff3f72bff0bde3f8012449f8139d299faab862007c850adac15136a
-size 342
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "banner@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "banner@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

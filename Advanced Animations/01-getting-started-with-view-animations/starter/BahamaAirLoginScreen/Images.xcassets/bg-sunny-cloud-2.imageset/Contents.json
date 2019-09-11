@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:31acc33c80adcd591ebbd01e93789795eda1dcb85e3eae48fe7fd967da504061
-size 362
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "bg-sunny-cloud-2@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "bg-sunny-cloud-2@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

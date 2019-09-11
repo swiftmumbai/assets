@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:303aaaa6afd44607a227f84f1d1e8ca9a103e665bfb8fb3f31d965657d6f5938
-size 364
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "Icon-Spotlight-40@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "Icon-Spotlight-40@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

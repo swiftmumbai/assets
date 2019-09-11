@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d5eaf3cfbf40f50e9dd3253182ae061b8a40cbe7af95fa39f8d2c15a7d29e510
-size 223
+//
+//  RMLollipopLicker.h
+//  Rage Masters
+//
+//  Created by Canopus on 10/31/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface RMLollipopLicker : UIViewController
+
+@end

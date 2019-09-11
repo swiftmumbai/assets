@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c490e263ee9e51b5ce6b2bd05311faa4c20c27c0f114a90daf6f8cd2acd207ec
-size 157
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:BeginnerCook.xcodeproj">
+   </FileRef>
+</Workspace>

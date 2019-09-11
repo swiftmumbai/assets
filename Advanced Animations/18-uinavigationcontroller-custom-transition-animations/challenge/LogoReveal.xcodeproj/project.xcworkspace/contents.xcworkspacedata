@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7d4ec4d9b913bc18220af6c4b1a555c4f483226155c1424adb6f8614be906fcb
-size 155
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:LogoReveal.xcodeproj">
+   </FileRef>
+</Workspace>

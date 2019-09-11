@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd1ff8689f57c74497e00f79281521a26b4d9f285ab6b2204e4305bed0064dd0
-size 210
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Users/marin/Desktop/Projects/Animation Book/_iOS9/work/Siri/Iris.xcodeproj">
+   </FileRef>
+</Workspace>

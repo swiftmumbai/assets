@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe1e694b2a80fde2bb6e0b08ee4116a51b3826a37eb1883ca3b4a38a989ffda2
-size 407
+//
+//  RMMasterViewController.h
+//  Rage Masters
+//
+//  Created by Canopus on 10/8/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import "RMBookmarks.h"
+#import "RMBookmarksViewController.h"
+#import "RMDetailViewController.h"
+#import "RMMaster.h"
+#import <UIKit/UIKit.h>
+
+
+@interface RMMasterViewController : UITableViewController
+
+@property (strong, nonatomic) NSArray *masters;
+
+@end

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef73253e43299ae648bf076d14615b64e52790512ff004175bcbac33f508397a
-size 411
+//
+//  RMBookmarks.h
+//  Rage Masters
+//
+//  Created by Canopus on 10/8/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "RMMaster.h"
+
+@interface RMBookmarks : NSObject
+
++ (RMBookmarks *)sharedBookmarks;
+
+- (void)bookmarkMaster:(RMMaster *)master;
+
+- (NSArray *)bookmarks;
+
+- (void)unbookmarkMaster:(RMMaster *)master;
+
+- (BOOL)canDoFunkyStuff;
+
+@end

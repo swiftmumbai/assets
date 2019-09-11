@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b7b90e3ce89ae08ba8a66414b7138935537c65e1bb97110b507271937d638085
-size 409
+//
+//  RMRageRequest.m
+//  Rage Masters
+//
+//  Created by Canopus on 10/13/12.
+//  Copyright (c) 2012 iOS Developer. All rights reserved.
+//
+
+#import "RMRageRequest.h"
+
+@interface RMRageRequest ()
+@property (nonatomic, copy) UIImage *image;
+@end
+
+
+@implementation RMRageRequest
+
+
+- (id)initWithImage:(UIImage *)image {
+    if (self = [super init]) {
+        self.image = image;
+    }
+    return self;
+}
+
+@end

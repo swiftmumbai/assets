@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:254a532b829340f002fa83daaf7064f8b8f63a6b6809b3fcbc01087dc400e8cc
-size 370
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "summericons_100px_02@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "summericons_100px_02@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

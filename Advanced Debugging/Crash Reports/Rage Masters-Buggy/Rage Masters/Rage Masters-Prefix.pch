@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0276336c6c635a5e1482b886dc030512f557e104fe058e09215f6ddbd985c320
-size 327
+//
+// Prefix header for all source files of the 'Rage Masters' target in the 'Rage Masters' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

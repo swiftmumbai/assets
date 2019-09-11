@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c9a5729a5e9b90470e7f9064be22c154d7920076672ddb953c0d55fb72629fc5
-size 156
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:OfficeBuddy.xcodeproj">
+   </FileRef>
+</Workspace>

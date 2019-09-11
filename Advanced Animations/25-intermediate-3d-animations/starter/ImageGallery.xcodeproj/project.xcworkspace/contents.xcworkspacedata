@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1e6b3fb3cfe68d39ede2ea22b871103634c3a635788b76315681cbce256a41b7
-size 157
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:ImageGallery.xcodeproj">
+   </FileRef>
+</Workspace>
